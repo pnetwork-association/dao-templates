@@ -22,13 +22,15 @@
     "deploy:rinkeby": "npm run compile && truffle exec ./scripts/deploy.js --network rinkeby --ens 0x98Df287B6C145399Aaa709692c8D308357bC085D --dao-factory 0xad4d106b43b480faa3ef7f98464ffc27fc1faa96 --mini-me-factory 0x6ffeb4038f7f077c4d20eaf1706980caec31e2bf",
     "deploy:ropsten": "npm run compile && truffle exec ./scripts/deploy.js --network ropsten --ens 0x6afe2cacee211ea9179992f89dc61ff25c61e923 --dao-factory 0x233c587095d066bafe44b543a719c93ff16423f3 --mini-me-factory 0x1ce5621d386b2801f5600f1dbe29522805b8ac11",
     "deploy:mainnet": "npm run compile && truffle exec ./scripts/deploy.js --network mainnet --ens 0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e --dao-factory 0xb9da44c051c6cc9e04b7e0f95e95d69c6a6d8031 --mini-me-factory 0x909d05f384d0663ed4be59863815ab43b4f347ec",
+    "deploy:matic": "npm run compile && truffle exec ./scripts/deploy.js --network matic --ens 0x71ca3721bc5bb38f42e066d378a91983448de356 --dao-factory 0xf5479841c8f0af39d1181a1ab18b2ac34bff2255 --mini-me-factory 0x572338b2B4690e9D8002E505b79de6575918C557",
     "publish:rpc": "aragon apm publish major $(npm run deploy:rpc | tail -n 1) --environment default",
     "publish:devnet": "aragon apm publish major $(npm run deploy:devnet | tail -n 1) --environment default",
     "publish:aragen": "aragon apm publish major $(npm run deploy:aragen | tail -n 1) --environment default",
     "publish:staging": "aragon apm publish major $(npm run deploy:staging | tail -n 1) --environment staging",
     "publish:rinkeby": "aragon apm publish major $(npm run deploy:rinkeby | tail -n 1) --environment rinkeby",
     "publish:ropsten": "aragon apm publish major $(npm run deploy:ropsten | tail -n 1) --environment ropsten",
-    "publish:mainnet": "aragon apm publish major $(npm run deploy:mainnet | tail -n 1) --environment mainnet"
+    "publish:mainnet": "aragon apm publish major $(npm run deploy:mainnet | tail -n 1) --environment mainnet",
+    "publish:matic": "aragon apm publish major $(npm run deploy:mainnet | tail -n 1) --environment matic"
   },
   "dependencies": {
     "@aragon/apps-shared-minime": "^1.0.0",
