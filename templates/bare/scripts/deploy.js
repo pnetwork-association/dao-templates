@@ -4,7 +4,7 @@ const TEMPLATE_NAME = 'bare-template'
 const CONTRACT_NAME = 'BareTemplate'
 
 module.exports = callback => {
-  deployTemplate(web3, artifacts, TEMPLATE_NAME, CONTRACT_NAME)
+  deployTemplate(web3, artifacts, TEMPLATE_NAME, CONTRACT_NAME, [])
     .then(template => {
       console.log(template.address)
       callback()
