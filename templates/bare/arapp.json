@@ -60,7 +60,7 @@
       "network": "goerli"
     },
     "xdai": {
-      "registry": "0x33b91543f8eB6ea582dd501C0D3d7B46d339803b",
+      "registry": "0xC2463283b05e20C9fa697A8C8647eC645146BfEe",
       "appName": "bare-template.aragonpm.eth",
       "network": "xdai"
     }
