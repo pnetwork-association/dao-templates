@@ -58,6 +58,11 @@
       "registry": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e",
       "appName": "bare-template.aragonpm.eth",
       "network": "goerli"
+    },
+    "xdai": {
+      "registry": "0x33b91543f8eB6ea582dd501C0D3d7B46d339803b",
+      "appName": "bare-template.aragonpm.eth",
+      "network": "xdai"
     }
   },
   "roles": [],

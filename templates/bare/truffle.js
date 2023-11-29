@@ -81,6 +81,12 @@ module.exports = {
       gas: 7.9e6,
       gasPrice: 210e9
     },
+    xdai: {
+      network_id: 100,
+      provider: providerForNetwork('xdai'),
+      gasPrice: 5e9,
+      minGasPrice: 3e9
+    },
     ropsten: {
       network_id: 3,
       provider: providerForNetwork('ropsten'),
